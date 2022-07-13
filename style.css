@@ -1,0 +1,270 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:#29AE81;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:antiquewhite;
+    border-radius: 10px;
+    padding: 0.3%;
+    opacity: 0.9;
+    transition: 0.5s; 
+}
+
+a:hover{
+    background-color: #29AE81;
+}
+
+a:active{
+    background-color: white;
+    color:#29AE81;
+}
+
+header{
+    background-color: #343a40;
+    opacity: 0.9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 10px;
+}
+
+.menu li a{
+    display: block;
+    padding: 5px;
+}
+
+.editar_convidado, .form_admin, .recuperar_senha {
+    background-color: white;
+    width: 15rem;
+    height: 35vh;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    border-radius: 20px;
+}
+
+.recuperar_senha button{
+    width: 150px;
+
+}
+
+.recuperar_senha a{
+    color:red;
+}
+
+
+
+select{
+    border-radius: 20px;
+    height:30px;
+}
+
+.login {
+    background-color: white;
+    width: 15rem;
+    height: 40vh;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    border-radius: 20px;
+}
+
+.login a{
+    color:red;
+}
+
+.cad_user {
+    background-color: white;
+    width: 15rem;
+    height: 45vh;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    border-radius: 20px;
+}
+
+.form_admin {
+    background-color: white;
+    width: 15rem;
+    height: 65vh;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    border-radius: 20px;
+}
+
+.form_admin button{
+    width: 15vw;
+    height: 8vh;
+    
+}
+
+
+h3{
+    color:#29AE81;
+    font-size: 24px;
+    text-align: center;
+}
+
+input{
+    border-radius: 10px;
+    height: 25px;
+    width: 225px;
+    padding: 3px;
+    border:1px solid black;
+}
+
+input:hover{
+    background-color:rgb(206, 226, 235);
+    
+}
+
+
+button{
+    background-color:#29AE81;
+    border:none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 70px;
+    opacity: 0.9;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(37, 139, 143);
+}
+
+button:active{
+    background-color: rgb(25, 233, 222);
+}
+
+.cad_user button{
+    width: 85px;
+}
+
+.cad_convidado{
+    height: 55vh;
+    width: 20vw;
+    background-color: white;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    border-radius: 20px;
+}
+
+.cad_convidado button{
+    width: 150px;
+}
+
+.pesquisa button{
+    width: 85px;
+}
+
+table{
+    border-radius: 10px;
+    width: auto;
+    border-collapse:collapse;
+}
+
+.editar_convidado{
+    height: 68vh;
+}
+
+.editar_convidado button{
+    width: 90px;
+}
+
+.deletar{
+    background-color: white;
+    width: 20vw;
+    height: 30vh;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deletar a{
+    background-color: #29AE81;
+    color:black;
+    padding: 13px 0px 3px 19px;
+    width: 3.5vw;
+    height: 3.5vh;
+}
+
+.deletar a:hover{
+    background-color: rgb(37, 139, 143);
+}
+
+.deletar .sim button:hover{
+    background-color: red;
+}
+
+.btn_editar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn_editar .voltar{
+    color:black;
+}
+
+.pesquisa button{
+    background-color: white;
+}
+
+.pesquisa button:hover{
+    background-color: #0ff1a6;
+}
+
+table {
+    border:none;
+    width: auto;
+    background-color: white;
+    margin:auto;
+    width: 80%;
+}
+
+td a{
+    color:black;
+}
+
+
+
+
